@@ -7,8 +7,6 @@ function init(e) {
 
   const key = parseInt(e.which);
 
-  const code = document.querySelector('code')
-
   let index = 0;
 
 
