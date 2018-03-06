@@ -5,7 +5,7 @@ function init(e) {
       console.log(e.which)
 
 
-  const key = parseInt(e.which);
+  const key = parseInt(e.detail || e.which);
 
   let index = 0;
 
